@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   client.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmallet <gmallet@student.42.fr>            +#+  +:+       +#+        */
+/*   By: gmallet <gmallet@student.42lehavre.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/14 08:23:34 by gmallet           #+#    #+#             */
-/*   Updated: 2023/03/14 08:23:36 by gmallet          ###   ########.fr       */
+/*   Created: 2023/05/02 15:18:16 by gmallet           #+#    #+#             */
+/*   Updated: 2023/05/02 15:18:35 by gmallet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <signal.h>
 #include <time.h>
-#include "libft.h"
 #include <errno.h>
 #include <string.h>
+#include "libft.h"
 
 #define KILL_ERROR 1
 #define WAIT_ERROR 2
